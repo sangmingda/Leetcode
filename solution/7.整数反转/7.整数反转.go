@@ -39,6 +39,7 @@
  * 0。
  *
  */
+ package _7_整数反转
 
 // @lc code=start
 func reverse(x int) int {

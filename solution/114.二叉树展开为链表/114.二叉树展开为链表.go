@@ -1,5 +1,5 @@
-package leetcode
-
+package _114_二叉树展开为链表
+// https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
 
 
  type TreeNode struct {
@@ -12,7 +12,7 @@ package leetcode
  func main(){
 	 var left *TreeNode
 	 var right *TreeNode
-	 root := *TreeNode{10,left,right}
+	 root := &TreeNode{10,left,right}
 	 flatten(root)
  }
 
