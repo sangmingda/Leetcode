@@ -1,5 +1,7 @@
-package solution
+package main
 
-func add(a, b int) int {
-	return a + b
+import "fmt"
+
+func main(){
+	fmt.Println("Hello VS Code!")
 }
